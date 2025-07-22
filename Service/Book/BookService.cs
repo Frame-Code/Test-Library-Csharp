@@ -10,14 +10,9 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Library.Service.Book
 {
-    public class BookService : IBookService
+    public class BookService(IBookRepository bookRepository) : IBookService
     {
-        private readonly IBookRepository _bookRepository;
-        public BookService(IBookRepository bookRepository)
-        {
-            _bookRepository = bookRepository;
-        }
-
+        private readonly IBookRepository _bookRepository = bookRepository;
         public async Task Add(BookDTO book)
         {
             await _bookRepository.Add(
@@ -30,22 +25,18 @@ namespace Library.Service.Book
                 });
         }
 
-        public Task<ICollection<BookDTO>> FindAll()
+        public async Task<ICollection<BookDTO>> FindAll()
         {
-            return await _bookRepository.findAll()
+            ICollection<BookEntity> bookList = await _bookRepository.FindAll();
+            return bookList
                     .Select(b => new BookDTO(b.Name, b.Author, b.Description, b.Category))
                     .ToList();
         }
 
         public async Task<BookDTO?> FindById(int id)
         {
-            BookEntity? book = await _bookRepository.findByID(id);
-            if(book != null)
-            {
-                return new BookDTO(book.Name, book.Author, book.Description, book.Category);
-            }
-            return null;
-
+            BookEntity? book = await _bookRepository.FindByID(id);
+            return book == null ? null : new BookDTO(book.Name, book.Author, book.Description, book.Category);
         }
     }
 }

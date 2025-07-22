@@ -10,8 +10,8 @@ namespace Library.Domain.Repository
     public interface IBookRepository
     {
         Task Add(BookEntity book);
-        Task<BookEntity>? findByID(int id);
-        Task<ICollection<BookEntity>> findAll();
+        Task<BookEntity?> FindByID(int id);
+        Task<ICollection<BookEntity>> FindAll();
 
     }
 }

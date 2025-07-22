@@ -62,3 +62,4 @@ C:\Repos\C#\Library\View\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Micr
 C:\Repos\C#\Library\View\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Repos\C#\Library\View\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Repos\C#\Library\View\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Repos\C#\Library\View\obj\Debug\net8.0-windows\View.sourcelink.json

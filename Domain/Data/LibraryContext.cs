@@ -10,10 +10,10 @@ namespace Library.Domain.Data
 {
     public class LibraryContext : DbContext
     {
-        public DbSet<BookEntity> books { get; set; }
+        public DbSet<BookEntity> BooksEntity { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-            => optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=LibraryDB;Trusted_Connection=true");
+            => optionsBuilder.UseSqlServer("Server=localhost;Database=library_sys;Trusted_Connection=True;TrustServerCertificate=True");
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -30,6 +30,7 @@ namespace Library.Domain.Data
             modelBuilder.Entity<BookEntity>().HasData(
                 new BookEntity
                 {
+                    Id = 1,
                     Name = "Clean Code",
                     Author = "Robert C. Martin",
                     Description = "A book to learn code",
@@ -37,6 +38,7 @@ namespace Library.Domain.Data
                 },
                 new BookEntity
                 {
+                    Id = 2,
                     Name = "Design Patterns",
                     Author = "Gang of Four",
                     Description = "A little book",

@@ -10,3 +10,6 @@ C:\Repos\C#\Library\Domain\obj\Debug\net8.0\refint\Library.Domain.dll
 C:\Repos\C#\Library\Domain\obj\Debug\net8.0\Library.Domain.pdb
 C:\Repos\C#\Library\Domain\obj\Debug\net8.0\ref\Library.Domain.dll
 C:\Repos\C#\Library\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+C:\Repos\C#\Library\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+C:\repos\c#\Library\Domain\bin\Debug\net8.0\Library.Domain.runtimeconfig.json
+C:\repos\c#\Library\Domain\obj\Debug\net8.0\Domain.genruntimeconfig.cache

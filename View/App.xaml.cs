@@ -19,7 +19,7 @@ namespace View
             var dbContext = new LibraryContext();
             IBookRepository bookRepository = new BookRepository(dbContext);
             IBookService bookService = new BookService(bookRepository);
-            MainWindow mainWindow = new MainWindow(bookService);
+            MainWindow mainWindow = new(bookService);
             mainWindow.Show();
 
 

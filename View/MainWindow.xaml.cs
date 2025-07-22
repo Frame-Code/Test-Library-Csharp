@@ -20,11 +20,16 @@ namespace View
     public partial class MainWindow : Window
     {
         private readonly IBookService _bookService;
+
         public MainWindow(IBookService bookService)
         {
             _bookService = bookService;
             InitializeComponent();
             Loaded += MainWindow_Loaded;
+        }
+
+        public MainWindow()
+        {
         }
 
         private async void MainWindow_Loaded(object sender, RoutedEventArgs e)
@@ -35,7 +40,7 @@ namespace View
 
         private async Task LoadBooks()
         {
-            foreach (var item in _bookService.FindAll())
+            foreach (var item in await _bookService.FindAll())
             {
                 TxtBooks.Text += item.ToString();
             }

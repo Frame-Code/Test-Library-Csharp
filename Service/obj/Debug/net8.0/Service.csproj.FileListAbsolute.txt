@@ -15,3 +15,4 @@ C:\Repos\C#\Library\Service\obj\Debug\net8.0\Library.Service.dll
 C:\Repos\C#\Library\Service\obj\Debug\net8.0\refint\Library.Service.dll
 C:\Repos\C#\Library\Service\obj\Debug\net8.0\Library.Service.pdb
 C:\Repos\C#\Library\Service\obj\Debug\net8.0\ref\Library.Service.dll
+C:\Repos\C#\Library\Service\obj\Debug\net8.0\Service.sourcelink.json

@@ -20,13 +20,13 @@ namespace Library.Domain.Repository
 
         public async Task Add(BookEntity book)
         {
-            _context.books.Add(book);
+            _context.BooksEntity.Add(book);
             await _context.SaveChangesAsync();
         }
 
-        public async Task<ICollection<BookEntity>> findAll() => await _context.books.ToListAsync();
+        public async Task<ICollection<BookEntity>> FindAll() => await _context.BooksEntity.ToListAsync();
 
-        public async Task<BookEntity?> findByID(int id) => await _context.books.FindAsync(id);
+        public async Task<BookEntity?> FindByID(int id) => await _context.BooksEntity.FindAsync(id);
         
     }
 }
