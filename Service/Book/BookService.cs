@@ -18,10 +18,10 @@ namespace Library.Service.Book
             await _bookRepository.Add(
                 new BookEntity
                 {
-                    Name = "Clean Code",
-                    Author = "Robert C. Martin",
-                    Description = "A book to learn code",
-                    Category = "Study"
+                    Name = book.nombre,
+                    Author = book.author,
+                    Description = book.description,
+                    Category = book.category
                 });
         }
 

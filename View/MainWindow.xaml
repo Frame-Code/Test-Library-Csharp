@@ -23,9 +23,7 @@
         <TextBox x:Name="TxtCategoria" HorizontalAlignment="Left" Margin="19,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="381" Height="26" Grid.Row="1"/>
         
         <Label Content="Descripción" HorizontalAlignment="Left" Margin="19,93,0,0" VerticalAlignment="Top" Height="32" Width="386" Grid.Row="1"/>
-        <Border BorderBrush="Black" BorderThickness="2" CornerRadius="5" Margin="19,125,400,70" Grid.Row="1" >
-            <TextBlock HorizontalAlignment="Left" Margin="19,125,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="60" Width="381" FontFamily="Arial"/>
-        </Border>
+        <TextBlock HorizontalAlignment="Left" Margin="19,125,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="60" Width="381" FontFamily="Arial"/>
         <TextBlock x:Name="TxtDescripción" HorizontalAlignment="Left" Margin="19,125,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="55" Width="381"/>
         <Button x:Name="BtnRegistrar" Content="Registrar" HorizontalAlignment="Left" Margin="99,211,0,0" Grid.Row="1" VerticalAlignment="Top" Height="21" Width="206" Click="BtnRegistrar_Click"/>
         <Border BorderBrush="Black" BorderThickness="1" Margin="432,79,10,10" Grid.RowSpan="2">

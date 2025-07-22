@@ -48,8 +48,9 @@ namespace View
 
         private void BtnRegistrar_Click(object sender, RoutedEventArgs e)
         {
-            _bookService.Add(new BookDTO(TxtNombre.Name, TxtAutor.Text, TxtDescripción.Text, TxtCategoria.Text));
+            _bookService.Add(new BookDTO(TxtNombre.Text, TxtAutor.Text, TxtDescripción.Text, TxtCategoria.Text));
             Console.WriteLine("Book saved");
+            using var _ = LoadBooks();
         }
     }
 }
