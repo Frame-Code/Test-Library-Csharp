@@ -1,0 +1,17 @@
+C:\Repos\C#\Library\Service\bin\Debug\net8.0\Library.Service.deps.json
+C:\Repos\C#\Library\Service\bin\Debug\net8.0\Library.Service.dll
+C:\Repos\C#\Library\Service\bin\Debug\net8.0\Library.Service.pdb
+C:\Repos\C#\Library\Service\bin\Debug\net8.0\Library.Domain.dll
+C:\Repos\C#\Library\Service\bin\Debug\net8.0\Library.shared.dll
+C:\Repos\C#\Library\Service\bin\Debug\net8.0\Library.Domain.pdb
+C:\Repos\C#\Library\Service\bin\Debug\net8.0\Library.shared.pdb
+C:\Repos\C#\Library\Service\obj\Debug\net8.0\Service.csproj.AssemblyReference.cache
+C:\Repos\C#\Library\Service\obj\Debug\net8.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\C#\Library\Service\obj\Debug\net8.0\Service.AssemblyInfoInputs.cache
+C:\Repos\C#\Library\Service\obj\Debug\net8.0\Service.AssemblyInfo.cs
+C:\Repos\C#\Library\Service\obj\Debug\net8.0\Service.csproj.CoreCompileInputs.cache
+C:\Repos\C#\Library\Service\obj\Debug\net8.0\Service.csproj.Up2Date
+C:\Repos\C#\Library\Service\obj\Debug\net8.0\Library.Service.dll
+C:\Repos\C#\Library\Service\obj\Debug\net8.0\refint\Library.Service.dll
+C:\Repos\C#\Library\Service\obj\Debug\net8.0\Library.Service.pdb
+C:\Repos\C#\Library\Service\obj\Debug\net8.0\ref\Library.Service.dll
